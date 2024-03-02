@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DocsDocsDocs</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="Images/MyLogo.png">
+    </head>
+    <body>
+        <div class="content">
+            <header>
+                <h1 class="main_heading">DocsDocsDocssss</h1>
+            </header>
+            <main>
+                <div class="ButtonFlexBox">
+                    <button id="PostStuff_button" class="Main_button">Post a New Note!</button>
+                    <button id="ReadStuff_button" class="Main_button">Read Your Notes!</button>
+                </div>
+               
+                <form  id="The_input_form">
+                        <input id="Title" class="Title" type="text" required placeholder="Enter Title here" >
+                        <button class="form_submit_buttons" id="back_button" >Back</button>
+                    <input type="Text" name="input_main" autocomplete="off" id="The_Input" >
+                    <div class="Row_of_Customizations">
+                        <div ><button class="CustomButton" id="Font_Weight"><strong>B</strong></button></div>
+                        <div><emp><button  class="CustomButton" id="Font_Style_emphasis">I</button></emp></div> 
+                        <div class="FontDiv">
+                            <button  class="CustomButton" id="FontFam">F</button>
+                        </div>       
+                       
+                    </div>
+                 
+                   
+                    <input  class="form_submit_buttons" type="submit" value="Post">
+                </form>
+                <div id="FontList" class="FontFam" >
+                    <div class="Font"  id="Monospace"><button>Monospace</button></div>
+                    <div  class="Font"  id="TNR" ><button>Times New Roman</button></div>
+                    <div  class="Font" id="Arial"><button >Arial</button></div>
+                    <div  class="Font" id="Cursive"><button >Cursive</button></div>
+                    <div  class="Font" id="Sans"><button >sans-serif</button></div>
+                </div>  
+                
+                <div id="MainDivToShowDocs"></div>
+                
+                
+            </main>
+            <script src="homepage.js"></script>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,268 @@
+*{
+    box-sizing: border-box;
+    letter-spacing: 2px;
+
+}
+
+.main_heading{
+    text-align: center;
+    color:white;
+}
+
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(251,0,235,1) 0%, rgba(0,212,255,1) 100%);
+    overflow:scroll;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:330px;
+}
+
+
+
+.authDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.authForms{
+    display: none;
+    background-color:  rgba(0,212,255,1);
+    padding:80px;
+    border-radius: 12px;
+    animation: fade-in 4s ease-in ;
+}
+
+.Form_input{
+    border-radius: 12px;
+    border:none;
+    padding:10px;
+    background-color:  rgb(235, 110, 226) ;
+    color: white;
+
+}
+
+.Form_input::placeholder{
+    color: white;
+    font-weight: lighter;
+    font-family: monospace;
+}
+.Form_input:active{
+    outline: none!important;
+    border: none;
+}
+
+.Footer{
+    position: fixed;
+    top:95%;
+    left: 47%;
+}
+
+
+#form_submit_button:hover{
+    opacity: 0.7;
+}
+
+#signup_div{
+    text-decoration: underline;
+    color:blue;
+}
+
+#signup_div:hover{
+    cursor:pointer;
+}
+
+.form_submit_buttons{
+    padding: 15px;
+    background-color: white;
+    border-radius: 12px;
+    border:none;    
+    color:black;
+    font-family: monospace;
+    box-shadow: 1px 1px black;
+}
+
+.form_submit_buttons:hover{
+    opacity: 0.7;
+}
+
+.Main_button{
+    border-radius: 12px;
+    width:40%;
+    
+    padding-left: 40px;
+    padding-right:40px;
+    padding-top:20px;
+    padding-bottom:20px;
+    box-shadow: 1px 1px black;
+    background-color: hotpink;
+    color:white;
+    font-family: monospace;
+    border:none;
+}
+
+
+.Main_button:hover{
+    opacity: 0.7;
+    transform: scale(1.25);
+}
+
+
+.ButtonFlexBox{
+    display: flex;
+    flex-direction: row;
+    gap:90px;
+    align-items: start;
+    justify-content: start;
+}
+
+.ButtonFlexBox > *{
+    width: 50%;
+}
+
+#The_input_form{
+
+
+    position: fixed;
+    top:10%;
+    left:0%;
+    visibility: hidden;
+    background-color:transparent;
+    width:90%;
+    height:90%;
+    animation: fade-in 4s ease-in ;
+    overflow: scroll;
+
+}
+
+.InputForm{
+    position: fixed;
+    top:40%;
+    visibility: visible;
+    background-color:transparent;
+    width:500px;
+    height:500px;
+    animation: fade-in 4s ease-in ;
+
+}
+.The_Input{
+    border: 1px solid white;
+    outline:aqua;
+    width: 80%;
+    height: 80%;
+    border-radius: 22px;
+    box-shadow: 2px 2px black;
+    font-size: larger;
+    background-color: grey;
+    color:white;
+    font-weight: bolder;
+
+}
+
+#The_Input{
+
+    border: 1px solid white;
+    outline:aqua;
+    width: 80%;
+    height: 80%;
+    border-radius: 22px;
+    box-shadow: 2px 2px black;
+    font-size: larger;
+    background-color: grey;
+    color:white;
+
+}
+
+.Row_of_Customizations{
+    position: fixed;
+    left:30%;
+    top:85%;
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+
+.CustomButton{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    width:60px;
+    height:60px;
+    font-size:100%;
+    border: none;
+}
+.CustomButton:hover{
+    opacity: 0.6;
+}
+@keyframes fade-in {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.Title{
+    position: absolute;
+    top:20%;
+    left:30%;
+    border: None;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    background-color: transparent;
+}
+
+.FontFam{
+    
+    display: flex;
+    flex-direction: column;
+    gap:0px;
+    border-radius: 7px;
+    position: fixed;
+    top: 80%;
+    left:45%;
+    visibility: hidden;
+}
+
+.Font{
+
+    padding: 5px;
+    background-color: black;
+    border:1px solid red;
+   
+}
+
+.Font > button{
+
+    background-color: transparent;
+    border: none;
+    color:white;
+}
+
+.Font > button:hover{
+    opacity: 0.5;
+}
+
+#MainDivToShowDocs{
+    position: absolute;
+    top:2%;
+    left:0%;
+}
+
+.ClassOFDiv{
+    position: fixed;
+    top:30%;
+    left:40%;
+}
+
+.FormClass{
+    position: fixed;
+    top:40%;
+    left:40%;
+}
